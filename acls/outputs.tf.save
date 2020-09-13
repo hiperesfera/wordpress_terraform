@@ -1,0 +1,8 @@
+
+output "wordpress_elb_security_group" {
+  value = aws_security_group.wordpress_elb.id
+}
+
+output "wordpress_server_security_group" {
+  value = aws_security_group.wordpress_server.id
+}
